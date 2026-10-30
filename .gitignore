@@ -1,0 +1,75 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Cache directories
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Kaggle credentials — NEVER commit
+kaggle.json
+
+# Competition dataset files — too large and not permitted for redistribution
+train.csv
+test.csv
+sample_submission.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Model checkpoints and binaries
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.bin
+*.cbm
+
+# Large artifacts
+*.zip
+*.tar.gz
+*.gz
+
+# Submission output (generated at runtime)
+submission/submission.csv
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
